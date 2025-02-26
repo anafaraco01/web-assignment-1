@@ -5,9 +5,12 @@
 - Nicholas de Laive (ndela524@mtroyal.ca) (201753524).
 
 ## Taskwork
-1. Decide topic
-2. Sketch the layout of the website (done in ink, colors, annotate sketches)
-3. Structur it using HTML
+1. Decide topic (Together)
+2. Sketch the layout of the website (done in ink, colors, annotate sketches) (Together)
+3. Structure it using HTML
+    Page 1: Index.html
+    Ana: Footer and body structure
+    Nicholas: Header and body content
 4. Add content
 5. Style
 6. Analyze it (Design principles)

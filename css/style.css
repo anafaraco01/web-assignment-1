@@ -1,0 +1,41 @@
+/* General Styling for all elements */
+* {
+    font-family: 'Century Gothic', "Times New Roman", serif;
+}
+
+/* Body spacing */
+body {
+    padding: 0 5rem;
+}
+
+/* Footer Styling */
+
+/* Contact us form */
+form {
+    padding:0 35%;
+}
+
+/* Class to center used for heading, buttons, copyright */
+.centered {
+    text-align: center;
+}
+
+/* Class for text input length */
+.fullWidth {
+    width: 99%;
+}
+
+/* Common styling for the buttons */
+.button {
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+/* Submit button styling */
+.submit {
+    margin-right: 1rem;
+}
+
+#copyright {
+    padding: 3rem 0 1rem;
+}
