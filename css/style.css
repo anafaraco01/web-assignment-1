@@ -3,16 +3,29 @@
     font-family: 'Century Gothic', "Times New Roman", serif;
 }
 
-/* Body spacing */
 body {
-    padding: 0 5rem;
+    margin: 0;
+}
+
+/* Section Styling */
+
+.flex {
+    display: flex;
+}
+
+
+article {
+    padding: 3rem 10rem;
 }
 
 /* Footer Styling */
 
 /* Contact us form */
 form {
-    padding:0 35%;
+    padding: 2rem;
+    background-color: white;
+    margin: 0 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Class to center used for heading, buttons, copyright */
@@ -38,4 +51,9 @@ form {
 
 #copyright {
     padding: 3rem 0 1rem;
+}
+
+#contactUs {
+    background-color: rgb(79, 120, 190);
+    padding: 2.5rem 0;
 }
