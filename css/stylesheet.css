@@ -1,0 +1,36 @@
+body{
+    margin-left: 2em;
+}
+div{
+    height:90px;
+    width: 100%;
+    
+}
+figure{
+    height:90px;
+}
+h1{
+    /* float:right; */
+    text-align: center;
+    
+}
+.logo{
+    float:left;
+    width:"50%";
+    height:"90px";
+}
+
+nav{
+    width: 75%;
+    float: left;
+}
+
+.search{
+    width: 25%;
+    float:right;
+} 
+
+td{
+    padding-right: 3em;
+    
+}
