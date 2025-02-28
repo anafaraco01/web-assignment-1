@@ -1,23 +1,40 @@
 # Assignment 1
 
 ## Team
-- Ana Rivera Faraco (arive273@mtroyal.ca) (201767273).
-- Nicholas de Laive (ndela524@mtroyal.ca) (201753524).
+- Ana Rivera Faraco arive273@mtroyal.ca (201767273).
+- Nicholas de Laive ndela524@mtroyal.ca (201753524).
+
+## Website
+This website is about videogames. It contains 3 pages:
+- The main page (index.html) will show the best seller videogames.
+- The 2nd page (upcomingReleases.html) will show the future new releases.
+- The 3rd page (rankings) will show a table with the videogames ranked.
 
 ## Taskwork
-1. Decide topic (Together)
-2. Sketch the layout of the website (done in ink, colors, annotate sketches) (Together)
-3. Structure it using HTML
-    Page 1: Index.html
-    Ana: Footer and body structure
-    Nicholas: Header and body content
-4. Add content
-5. Style
-6. Analyze it (Design principles)
-7. Validator
-*List all tasks and assign them each to one member*
+| Task                              | Performed by |
+| ------------------                | ----------   | 
+| Choose web topic                  | Both         |
+| Wireframe index.html              | Both         |
+| Wireframe upcomingReleases.html   | Ana          |
+| Wireframe rankings.html           | Nicholas     |
+| Coding header                     | Nicholas     |
+| Coding Footer                     | Ana          |
+| Coding index.html main structure  | Ana          |
+| Adding index.html main content    | Nicholas     |
+| Coding upcomingReleases.html      | Ana          |
+| Adding content to upcomingRel...  | Ana          |
+| Coding rankings.html              | Nicholas     |
+| Adding content to rankings.html   | Nicholas     |
+| Style the website                 | Both         |
+| Analyze it (Design principles)    | Both         |
+| Validate code                     | Both         |
 
-## Sketches (Wireframes)
+## References
+Content: https://loremipsum.io/generator?n=4&t=p
+
+Validator: https://validator.w3.org/
+
+
 explain the look-and-feel for the website along with a short explanaƟon of your ‘product. 
 
 ## NOTES:

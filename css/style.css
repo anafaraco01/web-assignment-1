@@ -8,14 +8,39 @@ body {
 }
 
 /* Section Styling */
-
-.flex {
-    display: flex;
-}
-
-
 article {
     padding: 3rem 10rem;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+[title=heroBlock] {
+    background-color: red;
+    height: 25rem;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 7rem;
+    font-size: 5rem;    
+}
+
+/* Link to Redirect to somewhere in the page used in hero block */
+.linkInThePage {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+}
+
+header section a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 /* Footer Styling */
@@ -25,7 +50,7 @@ form {
     padding: 2rem;
     background-color: white;
     margin: 0 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black; /* From https://www.w3schools.com/css/css3_shadows_box.asp*/
 }
 
 /* Class to center used for heading, buttons, copyright */
@@ -50,7 +75,7 @@ form {
 }
 
 #copyright {
-    padding: 3rem 0 1rem;
+    padding: 1rem 0;
 }
 
 #contactUs {
