@@ -1,16 +1,13 @@
 body{
     margin-left: 2em;
 }
-div{
+.header{
     height:90px;
     width: 100%;
     
 }
-figure{
-    height:90px;
-}
 h1{
-    /* float:right; */
+    
     text-align: center;
     
 }
@@ -33,4 +30,19 @@ nav{
 td{
     padding-right: 3em;
     
+}
+
+.photoRight{
+    float:right;
+    height: fit-content;
+    
+}
+.gta{
+    width:20%;
+    margin: 0;
+    float:right;
+    
+}
+.bestSellingList{
+    width: 100%;
 }
