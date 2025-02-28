@@ -1,0 +1,48 @@
+body{
+    margin-left: 2em;
+}
+.header{
+    height:90px;
+    width: 100%;
+    
+}
+h1{
+    
+    text-align: center;
+    
+}
+.logo{
+    float:left;
+    width:"50%";
+    height:"90px";
+}
+
+nav{
+    width: 75%;
+    float: left;
+}
+
+.search{
+    width: 25%;
+    float:right;
+} 
+
+td{
+    padding-right: 3em;
+    
+}
+
+.photoRight{
+    float:right;
+    height: fit-content;
+    
+}
+.gta{
+    width:20%;
+    margin: 0;
+    float:right;
+    
+}
+.bestSellingList{
+    width: 100%;
+}
