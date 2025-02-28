@@ -1,40 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="authors" content="Ana Rivera Faraco and Nicholas de Laive">
+    <meta name="description"
+        content="This is a video game website, that shows the best seller games, upcoming released and ratings">
+    <meta name="keywords" content="videogames, games, best seller, new release, ratings">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Best Seller Video Games</title>
 </head>
+
 <body>
     <header>
         <article class="header">
             <figure>
                 <img src="" alt="This is the logo" class="logo">
-                <h1>
-                    Home Page
-                </h1>
             </figure>
             
         </article>
-        
         <!-- 2E3088 -->
-       
-        
         <form class="search">
             <input type="search">
         </form>
         <nav>
             <table>
                 <tr>
-                    <td><a href="/otherPages/bestSellers.html">Best Sellers</a></td>
-                    <td>Link 2</td>
+                    <td><a href="index.html" class="activeLink">Popular Games</a></td>
+                    <td><a href="/pages/bestSellers.html">Best Sellers</a></td>
+                    <td><a href="/pages/upcomingReleases.html">Upcoming Releases</a></td>
                 </tr>
             </table>
         </nav>
         <br>
-        
+        <!-- Hero block -->
+        <section title="heroBlock">
+            <h1>Popular Games</h1>
+            <a href="#firstArticle" class="linkInThePage button">Take a look</a>
+        </section>
     </header>
-    
+    <main>
+        <section>
+            <article id="firstArticle">
+                <figure class="floatRight">
+                    <img src="images/test.png" alt="">
+                    <figcaption><cite>The citation of the image if from<a href="">URL</a></cite></figcaption>
+                </figure>
+                <h2>Title</h2>
+                <p>
+                    Gouda cheese triangles port-salut. Melted cheese blue castello cow everyone loves lancashire cut the
+                    cheese queso lancashire. Cheese and wine fondue cheeseburger chalk and cheese goat macaroni cheese
+                    cut the cheese taleggio. Cheese and wine smelly cheese pecorino st. agur blue cheese cheesecake brie
+                    bavarian bergkase fondue. Red leicester smelly cheese stilton parmesan when the cheese comes out
+                    everybody's happy croque monsieur everyone loves cheese strings. Squirty cheese say cheese brie
+                    cheesy grin mascarpone roquefort croque monsieur bavarian bergkase. Bavarian bergkase caerphilly
+                    roquefort cream cheese cheeseburger swiss lancashire cheese and biscuits. Hard cheese chalk and
+                    cheese cheeseburger stilton red leicester. </p>
+            </article>
+            <article>
+                <figure class="floatLeft">
+                    <img src="images/test.png" alt="">
+                    <figcaption><cite>The citation of the image if from<a href="">URL</a></cite></figcaption>
+                </figure>
+                <h2>Title</h2>
+                <p>
+                    Cheeseburger macaroni cheese gouda. Port-salut squirty cheese edam swiss rubber cheese ricotta
+                    halloumi airedale. Cream cheese ricotta mascarpone bavarian bergkase say cheese dolcelatte cheese
+                    slices chalk and cheese. Feta cheese slices goat ricotta pecorino pepper jack croque monsieur
+                    babybel. Airedale st. agur blue cheese cheddar smelly cheese bavarian bergkase cheesy grin everyone
+                    loves macaroni cheese. Cheese slices paneer edam mozzarella manchego taleggio blue castello bavarian
+                    bergkase. Squirty cheese macaroni cheese cheese and wine chalk and cheese brie gouda airedale say
+                    cheese. Macaroni cheese cheesy grin cheese and biscuits jarlsberg mozzarella squirty cheese.
+                </p>
+            </article>
+            <article>
+                <figure class="floatRight">
+                    <img src="images/test.png" alt="">
+                    <figcaption><cite>The citation of the image if from<a href="">URL</a></cite></figcaption>
+                </figure>
+                <h2>Title</h2>
+                <p>
+                    Fromage frais cheese and wine mozzarella. Monterey jack fondue cream cheese caerphilly dolcelatte
+                    airedale babybel fondue. Cheese strings croque monsieur macaroni cheese swiss camembert de normandie
+                    pepper jack mascarpone rubber cheese. Dolcelatte dolcelatte stinking bishop cheesecake rubber cheese
+                    monterey jack stilton swiss. Blue castello squirty cheese bocconcini hard cheese cheeseburger chalk
+                    and cheese dolcelatte cream cheese. Cheese on toast edam cheddar port-salut cheese strings cheese on
+                    toast st. agur blue cheese danish fontina. Halloumi melted cheese cheeseburger danish fontina goat
+                    cheese and biscuits lancashire hard cheese. Pepper jack cream cheese cheese and wine say cheese
+                    queso.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contactUs">
+            <form action="index.html" method="get">
+                <h2 class="centered">Contact Us</h2>
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <p>
+                            <label for="firstname">Firstname*</label>
+                            <input type="text" id="firstname" name="firstname" class="fullWidth" placeholder="Thomas"
+                                pattern="[A-Z]{1}+[a-zA-Z]" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastname">Lastname*</label>
+                            <input type="text" id="lastname" name="lastname" class="fullWidth" placeholder="Quinn"
+                                pattern="[A-Z]{1}+[a-zA-Z]" required>
+                        </p>
+                        <p>
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" class="fullWidth" placeholder="name@mtroyal.ca"
+                                pattern="[a-zA-Z0-9]+@mtroyal\.ca" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="fullWidth" placeholder="123-456-7891"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </p>
+                        <p>
+                            <label>Saludation:</label>
+                            <input type="radio" name="saludation" id="mr" value="mr">
+                            <label for="mr">Mr.</label>
+                            <input type="radio" name="saludation" id="ms" value="ms">
+                            <label for="ms">Ms.</label>
+                            <input type="radio" name="saludation" id="mrs" value="mrs">
+                            <label for="mrs">Mrs.</label>
+                            <input type="radio" name="saludation" id="dr" value="dr">
+                            <label for="dr">Dr.</label>
+                            <input type="radio" name="saludation" id="prof" value="prof">
+                            <label for="prof">Prof.</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Message</legend>
+                        <p>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="fullWidth">
+                        </p>
+                        <p>
+                            <label for="body">Body</label>
+                            <textarea name="body" id="body" rows="10" class="fullWidth"></textarea>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <input type="checkbox" id="subscribe" name="subscribe" value="true">
+                        <label for="subscribe">I would like to subscribe, and receive news!</label>
+                    </p>
+                    <p class="centered">
+                        <input type="submit" class="button submit">
+                        <input type="reset" class="button">
+                    </p>
+            </form>
+        </section>
+        <p id="copyright" class="centered">
+            Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+        </p>
+    </footer>
 </body>
+
 </html>

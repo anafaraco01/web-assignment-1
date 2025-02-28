@@ -1,0 +1,111 @@
+/* Header Styling Nicholas*/
+
+.logo{
+    float:left;
+    width:"50%";
+    height:"90px";
+}
+
+nav{
+    width: 75%;
+    float: left;
+}
+
+.search{
+    width: 25%;
+    float:right;
+} 
+
+td {
+    padding: 1rem;
+}
+
+
+.activeLink {
+    background-color: yellow;
+}
+
+/* General Styling for all elements */
+* {
+    font-family: 'Century Gothic', "Times New Roman", serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Section Styling */
+article {
+    padding: 3rem 10rem;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+[title=heroBlock] {
+    background-color: red;
+    height: 25rem;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 7rem;
+    font-size: 5rem;    
+}
+
+/* Link to Redirect to somewhere in the page used in hero block */
+.linkInThePage {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+}
+
+header section a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Footer Styling */
+
+/* Contact us form */
+form {
+    padding: 2rem;
+    background-color: white;
+    margin: 0 30%;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black; /* From https://www.w3schools.com/css/css3_shadows_box.asp*/
+}
+
+/* Class to center used for heading, buttons, copyright */
+.centered {
+    text-align: center;
+}
+
+/* Class for text input length */
+.fullWidth {
+    width: 99%;
+}
+
+/* Common styling for the buttons */
+.button {
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+/* Submit button styling */
+.submit {
+    margin-right: 1rem;
+}
+
+#copyright {
+    padding: 1rem 0;
+}
+
+#contactUs {
+    background-color: rgb(79, 120, 190);
+    padding: 2.5rem 0;
+}
