@@ -1,3 +1,30 @@
+/* Header Styling Nicholas*/
+
+.logo{
+    float:left;
+    width:"50%";
+    height:"90px";
+}
+
+nav{
+    width: 75%;
+    float: left;
+}
+
+.search{
+    width: 25%;
+    float:right;
+} 
+
+td {
+    padding: 1rem;
+}
+
+
+.activeLink {
+    background-color: yellow;
+}
+
 /* General Styling for all elements */
 * {
     font-family: 'Century Gothic', "Times New Roman", serif;
