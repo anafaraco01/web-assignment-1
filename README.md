@@ -5,10 +5,10 @@
 - Nicholas de Laive ndela524@mtroyal.ca (201753524).
 
 ## Website
-This website is about videogames. It contains 3 pages:
-- The main page (index.html) will show the best seller videogames.
+This website is about video games. It contains 3 pages:
+- The main page (index.html) will show some popular video games.
 - The 2nd page (upcomingReleases.html) will show the future new releases.
-- The 3rd page (rankings) will show a table with the videogames ranked.
+- The 3rd page (bestSellers.html) will show a table with the best sellers.
 
 ## Taskwork
 | Task                              | Performed by |
@@ -16,15 +16,15 @@ This website is about videogames. It contains 3 pages:
 | Choose web topic                  | Both         |
 | Wireframe index.html              | Both         |
 | Wireframe upcomingReleases.html   | Ana          |
-| Wireframe rankings.html           | Nicholas     |
+| Wireframe bestSellers.html        | Nicholas     |
 | Coding header                     | Nicholas     |
 | Coding Footer                     | Ana          |
 | Coding index.html main structure  | Ana          |
 | Adding index.html main content    | Nicholas     |
 | Coding upcomingReleases.html      | Ana          |
 | Adding content to upcomingRel...  | Ana          |
-| Coding rankings.html              | Nicholas     |
-| Adding content to rankings.html   | Nicholas     |
+| Coding bestSellers.html           | Nicholas     |
+| Adding content to bestSellers.html| Nicholas     |
 | Style the website                 | Both         |
 | Analyze it (Design principles)    | Both         |
 | Validate code                     | Both         |
