@@ -1,19 +1,26 @@
 /* Header Styling Nicholas*/
-
-.logo{
+header{
+    background-color: #75EDA9;
+}
+.logoFigure{
+    width: 5%; 
+    height:10rem;
+    margin: 0;
+}
+.logoIcon{
     float:left;
-    width:"50%";
-    height:"90px";
+    width:100%;
 }
 
 nav{
-    width: 75%;
+    width: 100%;
     float: left;
 }
 
 .search{
     width: 25%;
     float:right;
+    margin: 0;
 } 
 
 td {
@@ -22,7 +29,7 @@ td {
 
 
 .activeLink {
-    background-color: yellow;
+    background-color: #FF9A26;
 }
 
 /* General Styling for all elements */
@@ -32,6 +39,7 @@ td {
 
 body {
     margin: 0;
+    background-color: #4DAFDF;
 }
 
 /* Section Styling */
@@ -48,7 +56,7 @@ article {
 }
 
 [title=heroBlock] {
-    background-color: red;
+    background-color: #3A4DDD;
     height: 25rem;
     text-align: center;
 }
@@ -106,6 +114,9 @@ form {
 }
 
 #contactUs {
-    background-color: rgb(79, 120, 190);
+    background-color: #75EDA9;
     padding: 2.5rem 0;
+}
+input:invalid{
+    background-color: #FF8900;
 }
