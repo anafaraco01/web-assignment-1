@@ -6,3 +6,9 @@
 .halfWidth {
     width: 40%;
 }
+
+figure img {
+    width: 416px;
+    margin-top: 0;
+    padding-top: 0;
+}

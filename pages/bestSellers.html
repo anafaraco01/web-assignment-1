@@ -5,27 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Sellers</title>
-    <link rel="stylesheet" href="../css/bestSeller.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bestSeller.css">
 </head>
 
 <body>
     <header>
-        <article class="header">
-            <figure>
-                <img src="" alt="This is the logo" class="logo">
-                <h1>
-                    Best Sellers
-                </h1>
-            </figure>
-
-        </article>
-
-        <!-- 2E3088 -->
-
-
-        <form class="search">
-            <input type="search">
+        <figure id="logoSection">
+            <img src="../images/test.png" alt="This is the logo" class="logo">
+        </figure>
+        <form class="floatRight" action="#" method="get">
+            <input type="search" id="search" placeholder="Search...">
+            <input type="submit" id="submitSearch">
         </form>
         <nav>
             <table>
@@ -33,26 +24,30 @@
                     <td><a href="../index.html">Popular Games</a></td>
                     <td><a href="bestSellers.html" class="activeLink">Best Sellers</a></td>
                     <td><a href="upcomingReleases.html">Upcoming Releases</a></td>
+                    <td><a href="contactUs.html">Contact Us</a></td>
                 </tr>
             </table>
         </nav>
-        <br>
-
+        <!-- Hero block -->
+        <section title="heroBlock">
+            <h1>Best Sellers</h1>
+            <a href="#bestSellers" class="linkInThePage button">Take a look</a>
+        </section>
     </header>
     <main>
 
-        <h2>
+        <h2 id="bestSellers">
             Top 5 Best Sellers
         </h2>
         <article>
             <table class="bestSellingList">
                 <tr>
                     <td colspan="3">Minecraft</td>
-                     
+
                 </tr>
                 <tr>
                     <td>
-                        
+
                     </td>
                     <td>
                         300 million
@@ -60,7 +55,7 @@
                     <td>
                         <figure class="photoRight">
                             <img src="../images/gta5.jpg" alt="GTA5" class="gta">
-                            
+
                         </figure>
                     </td>
                 </tr>
@@ -74,7 +69,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">GTA 5</td>
-                     
+
                 </tr>
                 <tr>
                     <td>
@@ -86,7 +81,7 @@
                     <td>
                         <figure class="photoRight">
                             <img src="../images/gta5.jpg" alt="GTA5" class="gta">
-                            
+
                         </figure>
                     </td>
                 </tr>
@@ -100,11 +95,11 @@
                 </tr>
                 <tr>
                     <td colspan="3">Wii Sports</td>
-                     
+
                 </tr>
                 <tr>
                     <td>
-                        
+
                     </td>
                     <td>
                         82.9 million
@@ -112,7 +107,7 @@
                     <td>
                         <figure class="photoRight">
                             <img src="../images/gta5.jpg" alt="GTA5" class="gta">
-                            
+
                         </figure>
                     </td>
                 </tr>
@@ -126,11 +121,11 @@
                 </tr>
                 <tr>
                     <td colspan="3">Mario Kart 8 Deluxe</td>
-                     
+
                 </tr>
                 <tr>
                     <td>
-                        
+
                     </td>
                     <td>
                         75.8 million
@@ -138,7 +133,7 @@
                     <td>
                         <figure class="photoRight">
                             <img src="../images/gta5.jpg" alt="GTA5" class="gta">
-                            
+
                         </figure>
                     </td>
                 </tr>
@@ -152,11 +147,11 @@
                 </tr>
                 <tr>
                     <td colspan="3">PUBG Battlegrounds</td>
-                     
+
                 </tr>
                 <tr>
                     <td>
-                        
+
                     </td>
                     <td>
                         75 million
@@ -164,7 +159,7 @@
                     <td>
                         <figure class="photoRight">
                             <img src="../images/gta5.jpg" alt="GTA5" class="gta">
-                            
+
                         </figure>
                     </td>
                 </tr>
@@ -178,19 +173,18 @@
                 </tr>
             </table>
             <p>
-                Information was found on Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_best-selling_video_games">here</a>.
+                Information was found on Wikipedia <a
+                    href="https://en.wikipedia.org/wiki/List_of_best-selling_video_games" target="_blank">here</a>.
             </p>
 
         </article>
 
         <br>
     </main>
-
     <footer>
-        <p>
-            &copy;
+        <p id="copyright" class="centered">
+            Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
         </p>
-        <a href="#top">Back to top</a>
     </footer>
 </body>
 

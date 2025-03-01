@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Ana Rivera Faraco and Nicholas de Laive">
+    <meta name="description" content="This page shows a form so that users can contact us">
+    <meta name="keywords" content="contact, message, subject, email">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contactUs.css">
+</head>
+
+<body>
+    <header>
+        <figure id="logoSection">
+            <img src="../images/test.png" alt="This is the logo" class="logo">
+        </figure>
+        <form class="floatRight" action="#" method="get">
+            <input type="search" id="search" placeholder="Search...">
+            <input type="submit" id="submitSearch">
+        </form>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="../index.html">Popular Games</a></td>
+                    <td><a href="bestSellers.html">Best Sellers</a></td>
+                    <td><a href="upcomingReleases.html">Upcoming Releases</a></td>
+                    <td><a href="contactUs.html" class="activeLink">Contact Us</a></td>
+                </tr>
+            </table>
+        </nav>
+        <!-- No Hero block for this section, so that the autofocus does not scroll dowm the page -->
+    </header>
+    <main>
+        <section id="contactUs">
+            <form action="index.html" method="get">
+                <h2 class="centered">Contact Us</h2>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="firstname">Firstname*</label>
+                        <input type="text" id="firstname" name="firstname" class="fullWidth" placeholder="Thomas"
+                            pattern="[A-Z]{1}+[a-zA-Z]" required autofocus>
+                    </p>
+                    <p>
+                        <label for="lastname">Lastname*</label>
+                        <input type="text" id="lastname" name="lastname" class="fullWidth" placeholder="Quinn"
+                            pattern="[A-Z]{1}+[a-zA-Z]" required>
+                    </p>
+                    <p>
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" class="fullWidth" placeholder="name@mtroyal.ca"
+                            pattern="[a-zA-Z0-9]+@mtroyal\.ca" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" class="fullWidth" placeholder="123-456-7891"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </p>
+                    <p>
+                        <label>Saludation:</label>
+                        <input type="radio" name="saludation" id="mr" value="mr">
+                        <label for="mr">Mr.</label>
+                        <input type="radio" name="saludation" id="ms" value="ms">
+                        <label for="ms">Ms.</label>
+                        <input type="radio" name="saludation" id="mrs" value="mrs">
+                        <label for="mrs">Mrs.</label>
+                        <input type="radio" name="saludation" id="dr" value="dr">
+                        <label for="dr">Dr.</label>
+                        <input type="radio" name="saludation" id="prof" value="prof">
+                        <label for="prof">Prof.</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <p>
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="fullWidth">
+                    </p>
+                    <p>
+                        <label for="body">Body</label>
+                        <textarea name="body" id="body" rows="10" class="fullWidth"></textarea>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="true">
+                    <label for="subscribe">I would like to subscribe, and receive news!</label>
+                </p>
+                <p class="centered">
+                    <input type="submit" class="button submit">
+                    <input type="reset" class="button">
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p id="copyright" class="centered">
+            Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+        </p>
+    </footer>
+</body>
+
+</html>
