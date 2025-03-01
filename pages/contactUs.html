@@ -15,12 +15,12 @@
 <body>
     <header>
         <figure class="logoFigure">
-            <img src="../images/PenguinMan.png" alt="This is the logo" class="logoIcon">
+            <img src="../images/penguinMan.png" alt="This is the logo" class="logoIcon">
             <figcaption>
                 <cite>
                     <small>
                         By: Nicholas de Laive
-                    </small>    
+                    </small>
                 </cite>
             </figcaption>
         </figure>
@@ -42,7 +42,7 @@
     </header>
     <main>
         <section id="contactUs">
-            <form action="index.html" method="get">
+            <form action="contactUs.html" method="get">
                 <h2 class="centered">Contact Us</h2>
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -62,38 +62,43 @@
                             pattern="[a-zA-Z0-9]+@mtroyal\.ca" required>
                     </p>
                     <p>
-                        <label for="phone">Phone</label>
+                        <label for="phone">Phone*</label>
                         <input type="tel" id="phone" name="phone" class="fullWidth" placeholder="123-456-7891"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </p>
                     <p>
-                        <label>Saludation:</label>
-                        <input type="radio" name="saludation" id="mr" value="mr">
+                        <label>Salutation*</label>
+                        <input type="radio" name="saludation" id="mr" value="mr" required>
                         <label for="mr">Mr.</label>
-                        <input type="radio" name="saludation" id="ms" value="ms">
+                        <input type="radio" name="saludation" id="ms" value="ms" required>
                         <label for="ms">Ms.</label>
-                        <input type="radio" name="saludation" id="mrs" value="mrs">
+                        <input type="radio" name="saludation" id="mrs" value="mrs" required>
                         <label for="mrs">Mrs.</label>
-                        <input type="radio" name="saludation" id="dr" value="dr">
+                        <input type="radio" name="saludation" id="dr" value="dr" required>
                         <label for="dr">Dr.</label>
-                        <input type="radio" name="saludation" id="prof" value="prof">
+                        <input type="radio" name="saludation" id="prof" value="prof" required>
                         <label for="prof">Prof.</label>
                     </p>
                 </fieldset>
                 <fieldset>
                     <legend>Message</legend>
                     <p>
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" class="fullWidth">
+                        <label for="subject">Subject*</label>
+                        <input type="text" id="subject" name="subject" class="fullWidth" required>
                     </p>
                     <p>
-                        <label for="body">Body</label>
-                        <textarea name="body" id="body" rows="10" class="fullWidth"></textarea>
+                        <label for="body">Body*</label>
+                        <textarea name="body" id="body" rows="10" class="fullWidth" required></textarea>
                     </p>
                 </fieldset>
                 <p>
+                    <label>I would like to subscribe for:</label>
                     <input type="checkbox" id="subscribe" name="subscribe" value="true">
-                    <label for="subscribe">I would like to subscribe, and receive news!</label>
+                    <label for="subscribe">News</label>
+                    <input type="checkbox" id="releases" name="releases" value="true">
+                    <label for="releases">New Releases</label>
+                    <input type="checkbox" id="reviews" name="reviews" value="true">
+                    <label for="reviews">New Reviews</label>
                 </p>
                 <p class="centered">
                     <input type="submit" class="button submit">
@@ -104,7 +109,12 @@
     </main>
     <footer>
         <p id="copyright" class="centered">
-            Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+            <cite>
+                Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+            </cite>
+            <br>
+            <br>
+            <a href="#top" class="linkInThePage button" id="backToTopButton">Back to top</a>
         </p>
     </footer>
 </body>

@@ -7,10 +7,10 @@ section form {
 }
 
 #contactUs {
-    background-color: rgb(79, 120, 190);
+    background-color: #3A4DDD;
     padding: 2.5rem 0;
 }
 
 input:invalid{
-    background-color: #FF8900;
+    color: red;
 }
