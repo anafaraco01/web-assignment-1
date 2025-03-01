@@ -10,3 +10,7 @@ section form {
     background-color: rgb(79, 120, 190);
     padding: 2.5rem 0;
 }
+
+input:invalid{
+    background-color: #FF8900;
+}

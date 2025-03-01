@@ -4,11 +4,21 @@
     
 }
 .gta{
-    width:20%;
+    width:100%;
     margin: 0;
     float:right;
     
 }
 .bestSellingList{
     width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+.evenRow{
+    background-color: #8490EC;
+    
+}
+.oddRow{
+    background-color: #79C4E8;
 }

@@ -1,12 +1,29 @@
-/* Header Styling */
-/*  */
-#logoSection{
+/* Header Styling Nicholas*/
+header{
+    background-color: #75EDA9;
+}
+.logoFigure{
+    width: 5%; 
+    height:10rem;
+    margin: 0;
     padding: 0rem 10rem;
 }
-/* Logo image */
-.logo {
+.logoIcon{
+    float:left;
+    width:100%;
     height: 7rem;
 }
+
+nav{
+    width: 100%;
+    float: left;
+}
+
+.search{
+    width: 25%;
+    float:right;
+    margin: 0;
+} 
 
 td {
     padding-left: 2rem;
@@ -23,7 +40,7 @@ table tr td a:hover {
 }
 
 .activeLink {
-    background-color: yellow;
+    background-color: #FF9A26;
 }
 
 #search {
@@ -48,6 +65,7 @@ nav {
 
 body {
     margin: 0;
+    background-color: #4DAFDF;
 }
 
 /* Section Styling */
@@ -64,7 +82,7 @@ article {
 }
 
 [title=heroBlock] {
-    background-color: red;
+    background-color: #3A4DDD;
     height: 25rem;
     text-align: center;
 }
@@ -118,4 +136,3 @@ footer {
 #copyright {
     padding: 1rem 0;
 }
-
