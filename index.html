@@ -9,22 +9,30 @@
         content="This is a video game website, that shows the best seller games, upcoming released and ratings">
     <meta name="keywords" content="videogames, games, best seller, new release, ratings">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
     <title>Best Seller Video Games</title>
 </head>
 
 <body>
     <header>
         <article class="header">
-            <figure>
-                <img src="" alt="This is the logo" class="logo">
+            <figure class="logoFigure">
+                <img src="images/PenguinMan.png" alt="This is the logo" class="logoIcon">
+                <figcaption>
+                    <cite>
+                        <small>
+                            By: Nicholas de Laive
+                        </small>    
+                    </cite>
+                </figcaption>
             </figure>
-            
+          
+            <form class="search">
+                <input type="search">
+            </form>
+            <br>
         </article>
         <!-- 2E3088 -->
-        <form class="search">
-            <input type="search">
-        </form>
+       
         <nav>
             <table>
                 <tr>
@@ -104,7 +112,8 @@
                         <p>
                             <label for="firstname">Firstname*</label>
                             <input type="text" id="firstname" name="firstname" class="fullWidth" placeholder="Thomas"
-                                pattern="[A-Z]{1}+[a-zA-Z]" required autofocus>
+                                pattern="[A-Z]{1}+[a-zA-Z]" required >
+                                <!-- autofocus -->
                         </p>
                         <p>
                             <label for="lastname">Lastname*</label>
@@ -158,7 +167,10 @@
         </section>
         <p id="copyright" class="centered">
             Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+            <br>
+            <a href="#top">Back to top</a>
         </p>
+        
     </footer>
 </body>
 
