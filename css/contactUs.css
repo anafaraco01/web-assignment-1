@@ -1,0 +1,16 @@
+/* Contact us form */
+section form {
+    padding: 2rem;
+    background-color: white;
+    margin: 0 30%;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black; /* From https://www.w3schools.com/css/css3_shadows_box.asp*/
+}
+
+#contactUs {
+    background-color: rgb(79, 120, 190);
+    padding: 2.5rem 0;
+}
+
+input:invalid{
+    background-color: #FF8900;
+}
