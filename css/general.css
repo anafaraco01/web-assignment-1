@@ -23,6 +23,7 @@ header {
 .logoIcon {
     height: 50px;
     width: auto;
+    justify-self: center;
 }
 
 /* Hide the checkbox */
@@ -40,19 +41,21 @@ header {
     right: 20px;
 }
 
-/* Style the navigation menu */
+/* Style the navigation menu
 .menu {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
+} */
 
-/* 
+
 nav ul {
     list-style: none;
     text-align: left;
-} */
-
+}
+p{
+    margin-left: 1rem;
+}
 section[title="heroBlock"] {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
@@ -75,9 +78,12 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 589px) {
+
+
+
+/* @media screen and (max-width: 589px) {
     
-}
+} */
 
 @media screen and (min-width: 590px) {
     .logoFigure {

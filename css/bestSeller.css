@@ -1,24 +1,129 @@
-.photoRight{
-    float:right;
-    height: fit-content;
-    
+section article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-items fit-items auto;
+
+    grid-template-areas: "title"
+        "writing"
+        "photoRight";
 }
-.gta{
-    width:100%;
-    margin: 0;
-    float:right;
-    
+
+.title {
+    grid-area: title;
+    justify-self: center;
 }
-.bestSellingList{
-    width: 100%;
+
+.writing {
+    grid-area: writing;
 }
-table{
-    border-collapse: collapse;
+
+.photoRight {
+    grid-area: photoRight;
+    max-width: 50%;
+    width: fit-content;
+    justify-self: center;
+    margin-left: 2vw;
 }
-.evenRow{
-    background-color: #8490EC;
-    
+
+.gta {
+    /* width: 167px;
+    max-width: 15vw; */
+    width: 167px;
+    justify-self: center;
 }
-.oddRow{
-    background-color: #79C4E8;
+
+@media screen and (min-width:590px) {
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* section[title="heroBlock"] {
+        grid-area: titleLogo;
+        justify-self: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem 5rem;
+        grid-template-areas:
+            "header"
+            "a";
+
+        justify-items: center;
+    } */
+
+    /* section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, fit-items);
+
+    } */
+
+    section article {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px auto;
+
+        grid-template-areas: ". title ."
+            "writing writing photoRight";
+    }
+
+}
+
+@media screen and (min-width:790px) {
+    /* body {
+        display: grid;
+        grid-template-columns: 10vw 1fr 10vw;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". header ."
+            ". main ."
+            ". footer .";
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+ */
+    section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, fit-items);
+        grid-template-areas: "sellerOne sellerTwo"
+            "sellerThree sellerFour";
+        align-self: space-around;
+    }
+
+    section article {
+        grid-area: article;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px auto;
+
+        grid-template-areas: ". title . "
+            "writing writing photoRight";
+
+        border: 2px solid black;
+    }
+
+    .sellerOne {
+        grid-area: sellerOne;
+    }
+
+    .sellerTwo {
+        grid-area: sellerTwo;
+    }
+
+    .sellerThree {
+        grid-area: sellerThree;
+    }
+
+    .sellerFour {
+        grid-area: sellerFour;
+    } */
 }
