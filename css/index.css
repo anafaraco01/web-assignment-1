@@ -1,7 +1,0 @@
-figure img {
-    width: 416px;
-}
-
-article p::first-letter {
-    font-weight: bold;
-}
