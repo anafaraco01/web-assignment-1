@@ -1,6 +1,8 @@
-* {
+/* General Styling for all elements */
+body {
     padding: 0;
     margin: 0;
+    font-family: 'Century Gothic', 'Times New Roman', 'serif';
 }
 
 header,
@@ -18,6 +20,7 @@ header {
 .logoFigure {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    margin: 1rem;
 }
 
 .logoIcon {
@@ -26,8 +29,20 @@ header {
     justify-self: center;
 }
 
+/* Navigation Ana */
+ul a {
+    text-decoration: none;
+    color: black;
+    padding: .2rem;
+}
+
+ul a:hover,  .activeLink{
+    background-color: rgb(64, 64, 202);
+    color: white;
+}
+
 /* Hide the checkbox */
-.menu-checkbox {
+/* .menu-checkbox {
     display: none;
 }
 
@@ -35,11 +50,11 @@ header {
     font-size: 30px;
     cursor: pointer;
     display: none;
-    /* Hide by default */
+
     position: absolute;
     top: 15px;
     right: 20px;
-}
+} */
 
 /* Style the navigation menu
 .menu {
@@ -53,9 +68,8 @@ nav ul {
     list-style: none;
     text-align: left;
 }
-p{
-    margin-left: 1rem;
-}
+
+/* Hero Block */
 section[title="heroBlock"] {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
@@ -66,7 +80,24 @@ section[title="heroBlock"] {
 img {
     width: 150px;
 }
+ 
+/* h1 size */
 
+/* Link to Redirect to somewhere in the page used in hero block */
+.linkInThePage {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: .2rem;
+}
+
+header section a:hover, #backToTopButton:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Section Styling (Main content) */
 section {
     display: grid;
     grid-template-columns: 1fr;
@@ -78,8 +109,48 @@ h2 {
     text-align: center;
 }
 
+/* Contact us form */
+/* Class for text input length */
+.fullWidth {
+    width: 99%;
+}
 
+/* Common styling for the form buttons */
+.button {
+    padding: 0.5rem;
+    width: 10rem;
+}
 
+/* Submit button styling */
+.submit {
+    margin-right: 1rem;
+}
+
+input:invalid{
+    color: red;
+}
+
+/* Class to center form buttons, back to top button and footer paragraphs (copyright) */
+.centered {
+    text-align: center;
+}
+
+#copyright {
+    padding: 1rem 0;
+    margin-bottom: 0;
+}
+
+cite {
+    display: block;
+}
+
+a:focus, input:focus, textarea:focus {
+    outline: 2px solid red;
+}
+
+a {
+    word-break: break-word; /* Forces long words (like URLs) to break */
+}
 
 /* @media screen and (max-width: 589px) {
     
@@ -109,6 +180,8 @@ h2 {
     section h2 {
         grid-column: 1 / 3;
     }
+
+ 
 }
 
 
@@ -122,5 +195,9 @@ h2 {
     main,
     footer {
         width: 790px
+    }
+
+    .upcomingImage {
+        width: 300px;
     }
 }

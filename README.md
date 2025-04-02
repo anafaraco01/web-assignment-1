@@ -5,7 +5,7 @@
 - Nicholas de Laive ndela524@mtroyal.ca (201753524).
 
 ## Website
-This website is about video games. It contains 3 pages:
+This is a responsive and accessible website about video games. It contains 3 pages:
 - The main page (index.html) will show some popular video games.
 - The 2nd page (upcomingReleases.html) will show the future new releases.
 - The 3rd page (bestSellers.html) will show a table with the best sellers.
@@ -45,6 +45,8 @@ This website is about video games. It contains 3 pages:
 input[type="radio"]:focus + label {
     background-color:yellow;
 }
+
+*nav in middle it goes down
 
 ## References
 Content: https://loremipsum.io/generator?n=4&t=p

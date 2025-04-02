@@ -7,8 +7,8 @@
     <meta name="authors" content="Ana Rivera Faraco and Nicholas de Laive">
     <meta name="description" content="This page shows the upcoming released of some video games">
     <meta name="keywords" content="videogames, games, new release, upcoming">
-    <link rel="stylesheet" href="../css/style.css"> <!-- General style sheet -->
-    <link rel="stylesheet" href="../css/upcomingReleases.css"> <!-- Stylesheet for the page -->
+    <link rel="stylesheet" href="../css/normalize.css"> <!-- Normalize style sheet -->
+    <link rel="stylesheet" href="../css/general.css"> <!-- General style sheet -->
     <title>Upcoming Releases</title>
 </head>
 
@@ -24,58 +24,60 @@
                 </cite>
             </figcaption>
         </figure>
-        <form class="floatRight" action="#" method="get">
-            <input type="search" id="search" placeholder="Search...">
-            <input type="submit" id="submitSearch">
-        </form>
         <nav>
-            <table>
-                <tr>
-                    <td><a href="../index.html">Popular Games</a></td>
-                    <td><a href="bestSellers.html">Best Sellers</a></td>
-                    <td><a href="upcomingReleases.html" class="activeLink">Upcoming Releases</a></td>
-                </tr>
-            </table>
+            <ul>
+                <li>
+                    <a href="../index.html">Popular Games</a>
+                    <a href="bestSellers.html">Best Sellers</a>
+                    <a href="upcomingReleases.html" class="activeLink">Upcoming Releases</a>
+                </li>
+            </ul>
         </nav>
         <!-- Hero block -->
         <section title="heroBlock">
             <h1>Upcoming Releases</h1>
-            <a href="#upcomingReleasesSection" class="linkInThePage button">Take a look</a>
+            <p>
+                <a href="#upcomingReleasesSection" class="linkInThePage button">Take a look</a>
+            </p>
+            <figure>
+                <img src="../images/gaming.jpg" alt="This is a gaming image" class="heroImage">
+            </figure>
         </section>
     </header>
     <main>
-        <section id="upcomingReleasesSection">
-            <article class="floatRight">
-                <h2>Mario Bros 34</h2>
+        <section id="upcomingReleasesSection" title="mainContent">
+            <h2>Main Upcoming Releases for 2026</h2>
+            <article>
+                <h3>Mario Bros 34</h3>
                 <figure>
-                    <img src="../images/gaming.jpg" alt="Someone playing a video game">
+                    <img src="../images/gaming.jpg" alt="Someone playing a video game" class="upcomingImage">
                     <figcaption><cite>The image is of Cristie Guevara and it was found here<br><a
                                 href="https://www.publicdomainpictures.net/en/view-image.php?image=100681&picture=playing-video-games"
                                 target="_blank">https://www.publicdomainpictures.net</a></cite></figcaption>
                 </figure>
             </article>
             <article>
-                <h2>Nintendo 879</h2>
+                <h3>Nintendo 879</h3>
                 <figure>
-                    <img src="../images/gaming.jpg" alt="Someone playing a video game">
-                    <figcaption><cite>The image is of Cristie Guevara and it was found here<br><a
-                                href="https://www.publicdomainpictures.net/en/view-image.php?image=100681&picture=playing-video-games"
-                                target="_blank">https://www.publicdomainpictures.net</a></cite></figcaption>
-                </figure>
-            </article>
-            <article class="floatRight">
-                <h2>Love is all</h2>
-                <figure>
-                    <img src="../images/gaming.jpg" alt="Someone playing a video game">
+                    <img src="../images/gaming.jpg" alt="Someone playing a video game" class="upcomingImage">
                     <figcaption><cite>The image is of Cristie Guevara and it was found here<br><a
                                 href="https://www.publicdomainpictures.net/en/view-image.php?image=100681&picture=playing-video-games"
                                 target="_blank">https://www.publicdomainpictures.net</a></cite></figcaption>
                 </figure>
             </article>
             <article>
-                <h2>Tacos are the best</h2>
+                <h3>Love is all</h3>
                 <figure>
-                    <img src="../images/gaming.jpg" alt="Someone playing a video game">
+                    <img src="../images/gaming.jpg" alt="Someone playing a video game" class="upcomingImage">
+                    <figcaption><cite>The image is of Cristie Guevara and it was found here<br><a
+                                href="https://www.publicdomainpictures.net/en/view-image.php?image=100681&picture=playing-video-games"
+                                target="_blank">https://www.publicdomainpictures.net</a></cite></figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Tacos are the best</h3>
+                <figure>
+                    <img src="../images/gaming.jpg" alt="Someone playing a video game" class="upcomingImage">
                     <figcaption>
                         <cite>
                             The image is of Cristie Guevara and it was found here<br>
@@ -88,7 +90,7 @@
         </section>
     </main>
     <footer class="centered">
-        <h2 class="centered">References:</h2>
+        <h3 class="centered">References:</h3>
         <p class="centered">
             <cite>
                 The gaming image console is of Cristie Guevara and was found here: <a
