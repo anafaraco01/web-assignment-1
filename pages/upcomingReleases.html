@@ -9,6 +9,7 @@
     <meta name="keywords" content="videogames, games, new release, upcoming">
     <link rel="stylesheet" href="../css/normalize.css"> <!-- Normalize style sheet -->
     <link rel="stylesheet" href="../css/general.css"> <!-- General style sheet -->
+    <link rel="stylesheet" href="../css/navigation.css"> <!-- Navigation style sheet -->
     <title>Upcoming Releases</title>
 </head>
 
@@ -24,13 +25,26 @@
                 </cite>
             </figcaption>
         </figure>
-        <nav>
+        <!-- Hamburger menu visible for small screens source: https://codepen.io/ngochuynh/pen/yKrvVZ -->
+        <section>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Popular Games</a></li>
+                    <li><a href="bestSellers.html">Best Sellers</a></li>
+                    <li><a href="upcomingReleases.html" class="activeLink">Upcoming Releases</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Nav visible for medium and large screen -->
+        <nav class="horizontalNav">
             <ul>
-                <li>
-                    <a href="../index.html">Popular Games</a>
-                    <a href="bestSellers.html">Best Sellers</a>
-                    <a href="upcomingReleases.html" class="activeLink">Upcoming Releases</a>
-                </li>
+                <li><a href="../index.html">Popular Games</a></li>
+                <li><a href="bestSellers.html">Best Sellers</a></li>
+                <li><a href="upcomingReleases.html" class="activeLink">Upcoming Releases</a></li>
             </ul>
         </nav>
         <!-- Hero block -->
@@ -99,12 +113,19 @@
         </p>
         <p class="centered">
             <cite>
-                The names' inventionsor title came from Ana Rivera Faraco.
+                The hamburger menu was created based on: <a
+                    href="https://codepen.io/ngochuynh/pen/yKrvVZ"
+                    target="_blank">https://codepen.io/ngochuynh/pen/yKrvVZ</a>
+            </cite>
+        </p>
+        <p class="centered">
+            <cite>
+                The names' inventions or title came from Ana Rivera Faraco.
             </cite>
         </p>
         <p id="copyright" class="centered">
             <cite>
-                Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, Feb 2025.
+                Copyright &copy; Created by Ana Rivera Faraco and Nicholas de Laive, April 2025.
             </cite>
             <br>
             <br>
