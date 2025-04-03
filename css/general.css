@@ -17,6 +17,24 @@ header {
     text-align: center;
 }
 
+.skip {
+    display: block;
+    position: absolute;
+    top: -1000px;
+}
+
+.skip:focus {
+    top: 5px;
+    left: 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding: 5px;
+    z-index: 1;
+}
+
 .logoFigure {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -35,6 +53,8 @@ cite small {
 
 h1 {
     font-size: x-large;
+    color: white;
+    -webkit-text-stroke: 1px black; /* source: https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke*/
 }
 
 /* Navigation Ana */
@@ -142,6 +162,11 @@ a {
     word-break: break-word;
 }
 
+span {
+    color: darkred;
+    font-weight: bolder;
+}
+
 /* Medium screens */
 @media screen and (min-width: 590px) {
     header {
@@ -214,7 +239,7 @@ a {
     body {
         display: grid;
         justify-content: center;
-        background-color: beige;
+        background-color: rgb(27, 112, 133);
     }
 
     main {

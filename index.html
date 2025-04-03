@@ -15,9 +15,10 @@
 </head>
 
 <body>
+    <a href="#firstArticle" class="skip">Skip to Main Content</a>
     <header>
         <figure class="logoFigure">
-            <img src="images/penguinMan.png" alt="This is the logo" class="logoIcon">
+            <img src="images/penguinMan.png" alt="This is the logo" class="logoIcon" title="This is the logo of our website">
             <figcaption>
                 <cite>
                     <small>
@@ -55,7 +56,7 @@
                 <a href="#firstArticle" class="linkInThePage button">Take a look</a>
             </p>
             <figure>
-                <img src="images/gaming.jpg" alt="This is a gaming image" class="heroImage">
+                <img src="images/gaming.jpg" alt="This is an x-box controller" class="heroImage" title="This is a controller for playing games.">
             </figure>
         </section>
     </header>
@@ -119,27 +120,27 @@
             <fieldset>
                 <legend>Personal Information</legend>
                 <p>
-                    <label for="firstname">Firstname*</label>
+                    <label for="firstname">Firstname<span>*</span></label>
                     <input type="text" id="firstname" name="firstname" class="fullWidth" placeholder="Thomas"
                         pattern="[A-Z]{1}+[a-zA-Z]" required>
                 </p>
                 <p>
-                    <label for="lastname">Lastname*</label>
+                    <label for="lastname">Lastname<span>*</span></label>
                     <input type="text" id="lastname" name="lastname" class="fullWidth" placeholder="Quinn"
                         pattern="[A-Z]{1}+[a-zA-Z]" required>
                 </p>
                 <p>
-                    <label for="email">Email*</label>
+                    <label for="email">Email<span>*</span></label>
                     <input type="email" id="email" name="email" class="fullWidth" placeholder="name@mtroyal.ca"
                         pattern="[a-zA-Z0-9]+@mtroyal\.ca" required>
                 </p>
                 <p>
-                    <label for="phone">Phone*</label>
+                    <label for="phone">Phone<span>*</span></label>
                     <input type="tel" id="phone" name="phone" class="fullWidth" placeholder="123-456-7891"
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 </p>
                 <p>
-                    <label>Salutation*</label>
+                    Salutation<span>*</span>
                     <input type="radio" name="saludation" id="mr" value="mr" required>
                     <label for="mr">Mr.</label>
                     <input type="radio" name="saludation" id="ms" value="ms" required>
@@ -155,16 +156,16 @@
             <fieldset>
                 <legend>Message</legend>
                 <p>
-                    <label for="subject">Subject*</label>
+                    <label for="subject">Subject<span>*</span></label>
                     <input type="text" id="subject" name="subject" class="fullWidth" required>
                 </p>
                 <p>
-                    <label for="body">Body*</label>
+                    <label for="body">Body<span>*</span></label>
                     <textarea name="body" id="body" rows="10" class="fullWidth" required></textarea>
                 </p>
             </fieldset>
             <p>
-                <label>I would like to subscribe for:</label>
+                I would like to subscribe for:
                 <input type="checkbox" id="subscribe" name="subscribe" value="true">
                 <label for="subscribe">News</label>
                 <input type="checkbox" id="releases" name="releases" value="true">
@@ -173,8 +174,8 @@
                 <label for="reviews">New Reviews</label>
             </p>
             <p class="centered">
-                <input type="submit" class="button submit">
-                <input type="reset" class="button">
+                <input type="submit" class="button submit" value="submit">
+                <input type="reset" class="button" value="reset">
             </p>
         </form>
 

@@ -44,7 +44,7 @@
 
     .menu-icon {
         display: block;
-        color: white;
+        color: black;
     }
 
     .menu-checkbox:checked~.menu {
